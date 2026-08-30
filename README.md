@@ -1,0 +1,138 @@
+<h1 align="center">
+    KaiZStrap
+</h1>
+
+<p align="center">
+    KaiZStrap is a fork of <a href="https://github.com/fishstrap/fishstrap.git"><strong>Fishstrap</strong></a> focused on additional features like performance, customization.
+</p>
+
+<p align="center">
+    <img src="./.resources/kaizstrap.png" height=200 alt="logo"/>
+</p>
+
+<p align="center">
+    If you'd like to support our project, consider giving this repository a star!
+</p>
+
+<div align="center">
+
+[![License][badge-repo-license]][repo-license]
+[![Downloads (Total)][badge-repo-downloads-total]][repo-releases]
+[![Downloads (Latest)][badge-repo-downloads]][repo-releases]
+[![Version][badge-repo-latest]][repo-latest]
+[![Stars][badge-repo-stars]][repo-stargazer]
+[![Discord][badge-discord]][discord-invite]
+
+</div>
+
+> [!CAUTION]
+> The repo, [KaiZStrap/KaiZStrap](https://github.com/KaiZStrap/KaiZStrap.git), and [our website](https://kaizstrap.github.io), are the **ONLY PLACES** you should
+> download the binary/executable from, as any other source is **NOT** affiliated with us, and is a potential threat. 
+
+>[!NOTE]
+> We are still working on KaiZStrap, don't stress, you can look at other branches.
+> We are currently working on adding Linux and macOS support, as apart of 2.0
+
+---
+
+## Key Improvements Fishstrap
+
+### Integrations
+- Automatically rejoin servers you were disconnected from due to inactivity
+- Disable Roblox’s built-in screenshot and video recording system
+- Custom KaiZStrap Discord RPC that shows the current page/dialog
+- Replace "Playing Roblox" with the name of the game you're playing using Custom Status Display
+- The playtime counter shows both total and session playtime
+- Roblox Studio RPC integrated within KaiZStrap
+- Change the Studio RPC thumbnail depending on the script that is open
+- Show script type, name, and number of lines of code
+
+### Bootstrapper
+- Change the Roblox process priority
+- Automatically close the Roblox Crash Handler to reduce memory usage
+- Integrated cleaner tool to remove leftover files
+- Multi-instance launching support
+
+### Mods
+- Multi-mod system that allows you to download many mods at once
+- Select when to apply the mod (player/studio)
+- Download community-made mods directly from within the app
+- Generate mods using a hex code, with the option to also color the cursor, Shift Lock, or Emote Wheel
+- Change the cursor, Shift Lock, death sound, and game font by selecting a file
+- Use custom cursor sets to change between your cursors faster
+
+### FastFlag Enhancements
+- Automatic message when applying FastFlags that are not in the Roblox FastFlag Allowlist
+- Create or use FastFlag profiles
+- Change all Roblox FastFlags in the allowlist via the FastFlag settings
+- Click 'Clean List' to remove flags that are not in the Roblox FastFlag Allowlist
+
+### UI & Appearance
+- Fully customizable bootstrapper launcher
+- Change the app font to any font you prefer
+- Supports image and gradient background themes
+- Built-in app themes
+- Change the window background to Aero, Acrylic, or Mica
+
+### Settings
+- Easily switch Roblox update channels
+- Option to fully block Roblox updates
+- Replace Roblox’s changing version-xxxxx folders with a non-changing folder
+- View all currently available Roblox channels
+
+### Extra Features
+- Remembers the last opened tab
+- Easily import settings from other bootstrappers such as Fishstrap and KaiZStrap
+- Create game shortcuts for faster game joining
+- Join servers in your region more easily using the region selector
+- Join servers in your selected region through the system tray while playing
+- Built-in account manager
+
+More features are planned! You can also suggest new features in the Issues section.
+
+---
+
+## Licensing
+
+KaiZStrap uses a **multi-license model** depending on the origin of the code:
+
+| Code | License |
+|---|---|
+| Code written or modified by KaiZStrap | [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) |
+| Upstream code inherited from Fishstrap/KaiZStrap | [MIT](https://opensource.org/licenses/MIT) |
+| Nix-related code (unmodified) | [Unlicense](https://unlicense.org/) |
+
+**In plain terms:**
+- If KaiZStrap wrote it or modified it, it's **AGPL-3.0** — any modifications must be open-sourced under the same license
+- Code inherited from upstream (Fishstrap / KaiZStrap) remains under its original **MIT** license
+- Nix-specific code is **unlicensed** (public domain) and is strictly limited to Nix-related functionality
+
+When in doubt about which license applies to a specific file, check the file header or refer to the [LICENSE](./LICENSE) file.
+
+## Star History
+
+### To support the development of KaiZStrap, consider giving the repository a star.
+
+<a href="https://www.star-history.com/?repos=KaiZStrap%2FKaiZStrap%2CRealMeddsam%2FKaiZStrap%2CMeddsam%2FKaiZStrap&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=KaiZStrap/KaiZStrap%2CRealMeddsam/KaiZStrap%2CMeddsam/KaiZStrap&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=KaiZStrap/KaiZStrap%2CRealMeddsam/KaiZStrap%2CMeddsam/KaiZStrap&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=KaiZStrap/KaiZStrap%2CRealMeddsam/KaiZStrap%2CMeddsam/KaiZStrap&type=date&legend=top-left" />
+ </picture>
+</a>
+
+<!-- Badge defs -->
+[badge-repo-license]: https://img.shields.io/github/license/KaiZStrap/KaiZStrap?style=for-the-badge&color=37add9
+[badge-repo-downloads]: https://img.shields.io/github/downloads/KaiZStrap/KaiZStrap/latest/total?style=for-the-badge&color=37add9
+[badge-repo-downloads-total]: https://img.shields.io/github/downloads/KaiZStrap/KaiZStrap/total?style=for-the-badge&color=37add9
+[badge-repo-latest]: https://img.shields.io/github/v/release/KaiZStrap/KaiZStrap?style=for-the-badge&color=37add9
+[badge-repo-stars]: https://img.shields.io/github/stars/KaiZStrap/KaiZStrap?style=for-the-badge&color=37add9
+[badge-discord]: https://img.shields.io/discord/1364660238963179520?style=for-the-badge&label=discord&color=5865f2
+
+[repo-license]: https://github.com/KaiZStrap/KaiZStrap/blob/main/LICENSE
+[repo-actions]: https://github.com/KaiZStrap/KaiZStrap/actions
+[repo-releases]: https://github.com/KaiZStrap/KaiZStrap/releases
+[repo-latest]: https://github.com/KaiZStrap/KaiZStrap/releases/latest
+[repo-stargazer]: https://github.com/KaiZStrap/KaiZStrap/stargazers
+
+[discord-invite]: https://discord.gg/KdR9vpRcUN

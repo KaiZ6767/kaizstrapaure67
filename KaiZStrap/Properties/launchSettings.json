@@ -1,0 +1,43 @@
+{
+  "profiles": {
+    "KaiZStrap (Launch)": {
+      "commandName": "Project"
+    },
+    "KaiZStrap (Quiet Launch)": {
+      "commandName": "Project",
+      "commandLineArgs": "-quiet"
+    },
+    "KaiZStrap (Uninstall)": {
+      "commandName": "Project",
+      "commandLineArgs": "-uninstall"
+    },
+    "KaiZStrap (Quiet Uninstall)": {
+      "commandName": "Project",
+      "commandLineArgs": "-uninstall -quiet"
+    },
+    "KaiZStrap (Menu)": {
+      "commandName": "Project",
+      "commandLineArgs": "-menu"
+    },
+    "KaiZStrap (Deeplink)": {
+      "commandName": "Project",
+      "commandLineArgs": "-player \"roblox://experiences/start?placeId=13700835620\""
+    },
+    "KaiZStrap (Channel Launch)": {
+      "commandName": "Project",
+      "commandLineArgs": "-player \"roblox-player:1+launchmode:play+channel:zcontrol+LaunchExp:InApp\""
+    },
+    "KaiZStrap (Studio Launch)": {
+      "commandName": "Project",
+      "commandLineArgs": "-studio"
+    },
+    "KaiZStrap (Watcher)": {
+      "commandName": "Project",
+      "commandLineArgs": "-watcher"
+    },
+    "KaiZStrap (Bloxshade)": {
+      "commandName": "Project",
+      "commandLineArgs": "-bloxshade"
+    }
+  }
+}
